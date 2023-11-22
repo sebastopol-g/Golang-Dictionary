@@ -21,9 +21,9 @@ In order to use the project properly, you can process this way :
 - ./dict -action <action_name> <argument>
 
 Here are some examples :
-    Add an entry in the dictionary :
-        - ./dict -action add Golang "A great language"
-    List all entries :
-        - ./dict -action list
-    Remove an entry :
-        - ./dict -action delete Golang
+- Add an entry in the dictionary :
+./dict -action add Golang "A great language"
+- List all entries :
+./dict -action list
+- Remove an entry :
+./dict -action delete Golang
