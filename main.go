@@ -41,9 +41,8 @@ func actionAdd(d *dictionary.Dictionary, args []string) {
 func actionDefine(d *dictionary.Dictionary, args []string) {
 	word := args[0]
 	entry, err := d.Get(word)
-	definition := entry.Definition
 	handleErr(err)
-	fmt.Printf("Definition is :'%v'\n", definition)
+	fmt.Printf("Definition is :'%v'\n", entry)
 }
 
 func actionDelete(d *dictionary.Dictionary, args []string) {
