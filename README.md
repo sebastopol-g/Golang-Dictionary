@@ -11,14 +11,14 @@ Here are the actions that you can perform on the entries:
 You can precise the action that you want to perfom as an argument of the program.
 Here are the respectives actions (mentionned before) with their arguments :
 - list
-- add <word> <definition>
-- describe <word>
-- remove <word>
+- add word definition
+- describe word
+- remove word
 
 In order to use the project properly, you can process this way :
 
 - go build -o dict
-- ./dict -action <action_name> <argument>
+- ./dict -action action_name argument
 
 Here are some examples :
 - Add an entry in the dictionary :
