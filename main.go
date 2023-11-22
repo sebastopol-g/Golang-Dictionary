@@ -16,6 +16,13 @@ func main() {
 	for _, word := range words {
 		fmt.Println(entries[word])
 	}
+
+	d.Remove("python")
+
+	words, entries, _ = d.List()
+	for _, word := range words {
+		fmt.Println(entries[word])
+	}
 }
 
 func handleErr(err error) {

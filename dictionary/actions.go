@@ -86,3 +86,9 @@ func getEntry(item *badger.Item) (Entry, error) {
 	err = dec.Decode(&entry)
 	return entry, err
 }
+
+func (d *Dictionary) Remove(word string) error {
+	return d.db.Update(func(txn *badger.Txn) error {
+		return txn.Delete([]byte(word))
+	})
+}
