@@ -11,9 +11,9 @@ Here are the actions that you can perform on the entries:
 You can precise the action that you want to perfom as an argument of the program.
 Here are the respectives actions (mentionned before) with their arguments :
 - list
-- add word definition
-- describe word
-- remove word
+- add $word $description
+- describe $word
+- remove $word
 
 In order to use the project properly, you can process this way :
 
